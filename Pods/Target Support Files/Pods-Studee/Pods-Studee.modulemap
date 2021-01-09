@@ -1,0 +1,6 @@
+framework module Pods_Studee {
+  umbrella header "Pods-Studee-umbrella.h"
+
+  export *
+  module * { export * }
+}

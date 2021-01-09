@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A00C1D92479C83F0002B5C1 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A00C1D82479C83F0002B5C1 /* CountdownTimer.swift */; };
+		2A02EAC7259A811A008A34A1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A02EAC6259A811A008A34A1 /* SignUpViewController.swift */; };
+		2A068F1225A33CC6005EBAB6 /* MenuVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A068F1125A33CC6005EBAB6 /* MenuVideo.mp4 */; };
+		2A15119A259E583400FD0081 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A151199259E583400FD0081 /* IntroViewController.swift */; };
+		2A1511A2259E636800FD0081 /* BasicIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1511A0259E636800FD0081 /* BasicIntroViewController.swift */; };
+		2A1511A3259E636800FD0081 /* BasicIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1511A1259E636800FD0081 /* BasicIntroViewController.xib */; };
+		2A18BF5425085DBC00F36C1B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18BF5325085DBC00F36C1B /* User.swift */; };
+		2A18BF5725085DD200F36C1B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18BF5525085DD200F36C1B /* NotificationController.swift */; };
+		2A18BF5825085DD200F36C1B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18BF5625085DD200F36C1B /* TimerViewController.swift */; };
+		2A18BF5F25085F2900F36C1B /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18BF5E25085F2900F36C1B /* AdManager.swift */; };
+		2A539FD925964E9800BB608C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539FD825964E9800BB608C /* UserViewController.swift */; };
+		2A542325259F64EC00317F66 /* LastSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A542324259F64EC00317F66 /* LastSwipeViewController.swift */; };
+		2A542328259FC5BA00317F66 /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A542327259FC5BA00317F66 /* ParseData.swift */; };
+		2A65A3BA247461C7008090EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A65A3B9247461C7008090EC /* SceneDelegate.swift */; };
+		2A71A3CF259FECBF0003975C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A71A3CE259FECBF0003975C /* SplashViewController.swift */; };
+		2A81795C259519F90076EAC0 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81795B259519F90076EAC0 /* ExampleBouncesContentView.swift */; };
+		2A81796025951ADB0076EAC0 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81795F25951ADB0076EAC0 /* ExampleBasicContentView.swift */; };
+		2A817982259530050076EAC0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A817981259530050076EAC0 /* HomeViewController.swift */; };
+		2A94157825A51497000FCA1D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94157725A51496000FCA1D /* PopupView.swift */; };
+		2AADA69B259BBE4A00A4D8B1 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADA69A259BBE4A00A4D8B1 /* LoginHandler.swift */; };
+		2AADA6C9259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B6259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBold.otf */; };
+		2AADA6CA259BCF4F00A4D8B1 /* MaisonNeue-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6AC259BCF1A00A4D8B1 /* MaisonNeue-ThinItalic.otf */; };
+		2AADA6CB259BCF4F00A4D8B1 /* MaisonNeueExtended-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C1259BCF2700A4D8B1 /* MaisonNeueExtended-Thin.otf */; };
+		2AADA6CC259BCF4F00A4D8B1 /* MaisonNeueExtended-DemiItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BC259BCF2600A4D8B1 /* MaisonNeueExtended-DemiItalic.otf */; };
+		2AADA6CD259BCF4F00A4D8B1 /* MaisonNeue-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A0259BCF1A00A4D8B1 /* MaisonNeue-BlackItalic.otf */; };
+		2AADA6CE259BCF4F00A4D8B1 /* MaisonNeueMono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C6259BCF3100A4D8B1 /* MaisonNeueMono-Regular.otf */; };
+		2AADA6CF259BCF4F00A4D8B1 /* MaisonNeue-DemiItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6AA259BCF1A00A4D8B1 /* MaisonNeue-DemiItalic.otf */; };
+		2AADA6D0259BCF4F00A4D8B1 /* MaisonNeue-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A2259BCF1A00A4D8B1 /* MaisonNeue-ExtraBoldItalic.otf */; };
+		2AADA6D1259BCF4F00A4D8B1 /* MaisonNeue-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA69F259BCF1A00A4D8B1 /* MaisonNeue-Demi.otf */; };
+		2AADA6D2259BCF4F00A4D8B1 /* MaisonNeue-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A3259BCF1A00A4D8B1 /* MaisonNeue-Thin.otf */; };
+		2AADA6D3259BCF4F00A4D8B1 /* MaisonNeueExtended-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B1259BCF2600A4D8B1 /* MaisonNeueExtended-Bold.otf */; };
+		2AADA6D4259BCF4F00A4D8B1 /* MaisonNeueExtended-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B9259BCF2600A4D8B1 /* MaisonNeueExtended-BookItalic.otf */; };
+		2AADA6D5259BCF4F00A4D8B1 /* MaisonNeue-ExtraThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6AD259BCF1A00A4D8B1 /* MaisonNeue-ExtraThinItalic.otf */; };
+		2AADA6D6259BCF4F00A4D8B1 /* MaisonNeue-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A5259BCF1A00A4D8B1 /* MaisonNeue-Light.otf */; };
+		2AADA6D7259BCF4F00A4D8B1 /* MaisonNeue-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A6259BCF1A00A4D8B1 /* MaisonNeue-Book.otf */; };
+		2AADA6D8259BCF4F00A4D8B1 /* MaisonNeue-ExtraThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6AB259BCF1A00A4D8B1 /* MaisonNeue-ExtraThin.otf */; };
+		2AADA6D9259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C0259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThin.otf */; };
+		2AADA6DA259BCF4F00A4D8B1 /* MaisonNeue-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A9259BCF1A00A4D8B1 /* MaisonNeue-BoldItalic.otf */; };
+		2AADA6DB259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B2259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBoldItalic.otf */; };
+		2AADA6DC259BCF4F00A4D8B1 /* MaisonNeue-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A1259BCF1A00A4D8B1 /* MaisonNeue-LightItalic.otf */; };
+		2AADA6DD259BCF4F00A4D8B1 /* MaisonNeue-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A8259BCF1A00A4D8B1 /* MaisonNeue-Medium.otf */; };
+		2AADA6DE259BCF4F00A4D8B1 /* MaisonNeueExtended-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B4259BCF2600A4D8B1 /* MaisonNeueExtended-Demi.otf */; };
+		2AADA6DF259BCF4F00A4D8B1 /* MaisonNeueExtended-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B3259BCF2600A4D8B1 /* MaisonNeueExtended-Light.otf */; };
+		2AADA6E0259BCF4F00A4D8B1 /* MaisonNeue-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A7259BCF1A00A4D8B1 /* MaisonNeue-Bold.otf */; };
+		2AADA6E1259BCF4F00A4D8B1 /* MaisonNeueMono-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C3259BCF3100A4D8B1 /* MaisonNeueMono-Italic.otf */; };
+		2AADA6E2259BCF4F00A4D8B1 /* MaisonNeueMono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C5259BCF3100A4D8B1 /* MaisonNeueMono-Bold.otf */; };
+		2AADA6E3259BCF4F00A4D8B1 /* MaisonNeue-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6AE259BCF1A00A4D8B1 /* MaisonNeue-MediumItalic.otf */; };
+		2AADA6E4259BCF4F00A4D8B1 /* MaisonNeueExtended-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BD259BCF2700A4D8B1 /* MaisonNeueExtended-Black.otf */; };
+		2AADA6E5259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BE259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThinItalic.otf */; };
+		2AADA6E6259BCF4F00A4D8B1 /* MaisonNeueExtended-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B8259BCF2600A4D8B1 /* MaisonNeueExtended-BoldItalic.otf */; };
+		2AADA6E7259BCF4F00A4D8B1 /* MaisonNeueExtended-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BB259BCF2600A4D8B1 /* MaisonNeueExtended-Book.otf */; };
+		2AADA6E8259BCF4F00A4D8B1 /* MaisonNeueExtended-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B0259BCF2600A4D8B1 /* MaisonNeueExtended-ThinItalic.otf */; };
+		2AADA6E9259BCF4F00A4D8B1 /* MaisonNeue-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA69E259BCF1A00A4D8B1 /* MaisonNeue-BookItalic.otf */; };
+		2AADA6EA259BCF4F00A4D8B1 /* MaisonNeue-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA69D259BCF1000A4D8B1 /* MaisonNeue-Black.otf */; };
+		2AADA6EB259BCF4F00A4D8B1 /* MaisonNeueExtended-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BA259BCF2600A4D8B1 /* MaisonNeueExtended-BlackItalic.otf */; };
+		2AADA6EC259BCF4F00A4D8B1 /* MaisonNeueExtended-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B5259BCF2600A4D8B1 /* MaisonNeueExtended-LightItalic.otf */; };
+		2AADA6ED259BCF4F00A4D8B1 /* MaisonNeueExtended-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6BF259BCF2700A4D8B1 /* MaisonNeueExtended-Medium.otf */; };
+		2AADA6EE259BCF4F00A4D8B1 /* MaisonNeueMono-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6C4259BCF3100A4D8B1 /* MaisonNeueMono-BoldItalic.otf */; };
+		2AADA6EF259BCF4F00A4D8B1 /* MaisonNeue-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6A4259BCF1A00A4D8B1 /* MaisonNeue-ExtraBold.otf */; };
+		2AADA6F0259BCF4F00A4D8B1 /* MaisonNeueExtended-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AADA6B7259BCF2600A4D8B1 /* MaisonNeueExtended-MediumItalic.otf */; };
+		2AADA6F9259BE93E00A4D8B1 /* UIViewController Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADA6F8259BE93E00A4D8B1 /* UIViewController Extension.swift */; };
+		2AADA717259C0AA200A4D8B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADA716259C0AA200A4D8B1 /* LoginViewController.swift */; };
+		2ABC00C42593E80300D31690 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC00C32593E80300D31690 /* ForumViewController.swift */; };
+		2ABC00C72593E80E00D31690 /* QNAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC00C62593E80E00D31690 /* QNAViewController.swift */; };
+		2AF8DCB3246F300400E42988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8DCB2246F300400E42988 /* AppDelegate.swift */; };
+		2AF8DCBA246F300400E42988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8DCB8246F300400E42988 /* Main.storyboard */; };
+		2AF8DCBF246F300600E42988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8DCBE246F300600E42988 /* Assets.xcassets */; };
+		2AF8DCC2246F300600E42988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8DCC0246F300600E42988 /* LaunchScreen.storyboard */; };
+		3ED492BA59A64942207BC0C5 /* Pods_Studee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC83BB1B6235D92A504CE95 /* Pods_Studee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F785CEDE4E98CB83F86DA60 /* Pods-Studie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studie.release.xcconfig"; path = "Target Support Files/Pods-Studie/Pods-Studie.release.xcconfig"; sourceTree = "<group>"; };
+		2A00C1D82479C83F0002B5C1 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		2A02EAC6259A811A008A34A1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2A068F1125A33CC6005EBAB6 /* MenuVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MenuVideo.mp4; sourceTree = "<group>"; };
+		2A151199259E583400FD0081 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		2A1511A0259E636800FD0081 /* BasicIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicIntroViewController.swift; sourceTree = "<group>"; };
+		2A1511A1259E636800FD0081 /* BasicIntroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicIntroViewController.xib; sourceTree = "<group>"; };
+		2A18BF5325085DBC00F36C1B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A18BF5525085DD200F36C1B /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2A18BF5625085DD200F36C1B /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		2A18BF5E25085F2900F36C1B /* AdManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		2A539FD825964E9800BB608C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		2A542324259F64EC00317F66 /* LastSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSwipeViewController.swift; sourceTree = "<group>"; };
+		2A542327259FC5BA00317F66 /* ParseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseData.swift; sourceTree = "<group>"; };
+		2A65A3B9247461C7008090EC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A71A3CE259FECBF0003975C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2A81795B259519F90076EAC0 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		2A81795F25951ADB0076EAC0 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		2A817981259530050076EAC0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A94157725A51496000FCA1D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		2AADA69A259BBE4A00A4D8B1 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		2AADA69D259BCF1000A4D8B1 /* MaisonNeue-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Black.otf"; sourceTree = "<group>"; };
+		2AADA69E259BCF1A00A4D8B1 /* MaisonNeue-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-BookItalic.otf"; sourceTree = "<group>"; };
+		2AADA69F259BCF1A00A4D8B1 /* MaisonNeue-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Demi.otf"; sourceTree = "<group>"; };
+		2AADA6A0259BCF1A00A4D8B1 /* MaisonNeue-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-BlackItalic.otf"; sourceTree = "<group>"; };
+		2AADA6A1259BCF1A00A4D8B1 /* MaisonNeue-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-LightItalic.otf"; sourceTree = "<group>"; };
+		2AADA6A2259BCF1A00A4D8B1 /* MaisonNeue-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		2AADA6A3259BCF1A00A4D8B1 /* MaisonNeue-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Thin.otf"; sourceTree = "<group>"; };
+		2AADA6A4259BCF1A00A4D8B1 /* MaisonNeue-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-ExtraBold.otf"; sourceTree = "<group>"; };
+		2AADA6A5259BCF1A00A4D8B1 /* MaisonNeue-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Light.otf"; sourceTree = "<group>"; };
+		2AADA6A6259BCF1A00A4D8B1 /* MaisonNeue-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Book.otf"; sourceTree = "<group>"; };
+		2AADA6A7259BCF1A00A4D8B1 /* MaisonNeue-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Bold.otf"; sourceTree = "<group>"; };
+		2AADA6A8259BCF1A00A4D8B1 /* MaisonNeue-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-Medium.otf"; sourceTree = "<group>"; };
+		2AADA6A9259BCF1A00A4D8B1 /* MaisonNeue-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-BoldItalic.otf"; sourceTree = "<group>"; };
+		2AADA6AA259BCF1A00A4D8B1 /* MaisonNeue-DemiItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-DemiItalic.otf"; sourceTree = "<group>"; };
+		2AADA6AB259BCF1A00A4D8B1 /* MaisonNeue-ExtraThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-ExtraThin.otf"; sourceTree = "<group>"; };
+		2AADA6AC259BCF1A00A4D8B1 /* MaisonNeue-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-ThinItalic.otf"; sourceTree = "<group>"; };
+		2AADA6AD259BCF1A00A4D8B1 /* MaisonNeue-ExtraThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-ExtraThinItalic.otf"; sourceTree = "<group>"; };
+		2AADA6AE259BCF1A00A4D8B1 /* MaisonNeue-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeue-MediumItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B0259BCF2600A4D8B1 /* MaisonNeueExtended-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-ThinItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B1259BCF2600A4D8B1 /* MaisonNeueExtended-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Bold.otf"; sourceTree = "<group>"; };
+		2AADA6B2259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B3259BCF2600A4D8B1 /* MaisonNeueExtended-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Light.otf"; sourceTree = "<group>"; };
+		2AADA6B4259BCF2600A4D8B1 /* MaisonNeueExtended-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Demi.otf"; sourceTree = "<group>"; };
+		2AADA6B5259BCF2600A4D8B1 /* MaisonNeueExtended-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-LightItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B6259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-ExtraBold.otf"; sourceTree = "<group>"; };
+		2AADA6B7259BCF2600A4D8B1 /* MaisonNeueExtended-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-MediumItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B8259BCF2600A4D8B1 /* MaisonNeueExtended-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-BoldItalic.otf"; sourceTree = "<group>"; };
+		2AADA6B9259BCF2600A4D8B1 /* MaisonNeueExtended-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-BookItalic.otf"; sourceTree = "<group>"; };
+		2AADA6BA259BCF2600A4D8B1 /* MaisonNeueExtended-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-BlackItalic.otf"; sourceTree = "<group>"; };
+		2AADA6BB259BCF2600A4D8B1 /* MaisonNeueExtended-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Book.otf"; sourceTree = "<group>"; };
+		2AADA6BC259BCF2600A4D8B1 /* MaisonNeueExtended-DemiItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-DemiItalic.otf"; sourceTree = "<group>"; };
+		2AADA6BD259BCF2700A4D8B1 /* MaisonNeueExtended-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Black.otf"; sourceTree = "<group>"; };
+		2AADA6BE259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-ExtraThinItalic.otf"; sourceTree = "<group>"; };
+		2AADA6BF259BCF2700A4D8B1 /* MaisonNeueExtended-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Medium.otf"; sourceTree = "<group>"; };
+		2AADA6C0259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-ExtraThin.otf"; sourceTree = "<group>"; };
+		2AADA6C1259BCF2700A4D8B1 /* MaisonNeueExtended-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueExtended-Thin.otf"; sourceTree = "<group>"; };
+		2AADA6C3259BCF3100A4D8B1 /* MaisonNeueMono-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueMono-Italic.otf"; sourceTree = "<group>"; };
+		2AADA6C4259BCF3100A4D8B1 /* MaisonNeueMono-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueMono-BoldItalic.otf"; sourceTree = "<group>"; };
+		2AADA6C5259BCF3100A4D8B1 /* MaisonNeueMono-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueMono-Bold.otf"; sourceTree = "<group>"; };
+		2AADA6C6259BCF3100A4D8B1 /* MaisonNeueMono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaisonNeueMono-Regular.otf"; sourceTree = "<group>"; };
+		2AADA6F8259BE93E00A4D8B1 /* UIViewController Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController Extension.swift"; sourceTree = "<group>"; };
+		2AADA716259C0AA200A4D8B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2ABC00C32593E80300D31690 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		2ABC00C62593E80E00D31690 /* QNAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QNAViewController.swift; sourceTree = "<group>"; };
+		2AF19B45259AB226007A96F5 /* Studee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Studee.entitlements; sourceTree = "<group>"; };
+		2AF8DCAF246F300400E42988 /* Studee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF8DCB2246F300400E42988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF8DCB9246F300400E42988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AF8DCBE246F300600E42988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF8DCC1246F300600E42988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AF8DCC3246F300600E42988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B742CA040B3693B81DF2EE /* Pods-Studee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studee.debug.xcconfig"; path = "Target Support Files/Pods-Studee/Pods-Studee.debug.xcconfig"; sourceTree = "<group>"; };
+		51232B49F07873DDE1B9D9AA /* Pods-Studee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studee.release.xcconfig"; path = "Target Support Files/Pods-Studee/Pods-Studee.release.xcconfig"; sourceTree = "<group>"; };
+		9EB7E19F61B42D355D1C4342 /* Pods-Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study.release.xcconfig"; path = "Target Support Files/Pods-Study/Pods-Study.release.xcconfig"; sourceTree = "<group>"; };
+		AEC83BB1B6235D92A504CE95 /* Pods_Studee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12CB969CC0605745B5C8883 /* Pods-Studie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studie.debug.xcconfig"; path = "Target Support Files/Pods-Studie/Pods-Studie.debug.xcconfig"; sourceTree = "<group>"; };
+		EF192435246DDB091316A32E /* Pods-Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study.debug.xcconfig"; path = "Target Support Files/Pods-Study/Pods-Study.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF8DCAC246F300400E42988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED492BA59A64942207BC0C5 /* Pods_Studee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1511A5259E636F00FD0081 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A1511A1259E636800FD0081 /* BasicIntroViewController.xib */,
+				2A94157725A51496000FCA1D /* PopupView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		2A18BF5D25085F1B00F36C1B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2A18BF5525085DD200F36C1B /* NotificationController.swift */,
+				2A18BF5E25085F2900F36C1B /* AdManager.swift */,
+				2AADA69A259BBE4A00A4D8B1 /* LoginHandler.swift */,
+				2A542327259FC5BA00317F66 /* ParseData.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2A281C9A24733A9C006D6BC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A18BF5325085DBC00F36C1B /* User.swift */,
+				2A00C1D82479C83F0002B5C1 /* CountdownTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A281C9B24733AA1006D6BC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A1511A5259E636F00FD0081 /* Custom Views */,
+				2AF8DCB8246F300400E42988 /* Main.storyboard */,
+				2AF8DCC0246F300600E42988 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A281C9C24733AA8006D6BC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A9414E725A4EB4E000FCA1D /* OnboardingControllers */,
+				2A542323259F647A00317F66 /* TabControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A542323259F647A00317F66 /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A18BF5625085DD200F36C1B /* TimerViewController.swift */,
+				2ABC00C32593E80300D31690 /* ForumViewController.swift */,
+				2ABC00C62593E80E00D31690 /* QNAViewController.swift */,
+				2A817981259530050076EAC0 /* HomeViewController.swift */,
+				2A539FD825964E9800BB608C /* UserViewController.swift */,
+			);
+			path = TabControllers;
+			sourceTree = "<group>";
+		};
+		2A65A37C24734173008090EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A068F1125A33CC6005EBAB6 /* MenuVideo.mp4 */,
+				2A81795E25951AD10076EAC0 /* TabBarClasses */,
+				2AF8DCBE246F300600E42988 /* Assets.xcassets */,
+				2AF8DCC9246F301100E42988 /* Fonts */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		2A81795E25951AD10076EAC0 /* TabBarClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2A81795B259519F90076EAC0 /* ExampleBouncesContentView.swift */,
+				2A81795F25951ADB0076EAC0 /* ExampleBasicContentView.swift */,
+			);
+			path = TabBarClasses;
+			sourceTree = "<group>";
+		};
+		2A9414E725A4EB4E000FCA1D /* OnboardingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A02EAC6259A811A008A34A1 /* SignUpViewController.swift */,
+				2AADA716259C0AA200A4D8B1 /* LoginViewController.swift */,
+				2A151199259E583400FD0081 /* IntroViewController.swift */,
+				2A1511A0259E636800FD0081 /* BasicIntroViewController.swift */,
+				2A542324259F64EC00317F66 /* LastSwipeViewController.swift */,
+				2A71A3CE259FECBF0003975C /* SplashViewController.swift */,
+			);
+			path = OnboardingControllers;
+			sourceTree = "<group>";
+		};
+		2AADA6C8259BCF3B00A4D8B1 /* Maison Neue */ = {
+			isa = PBXGroup;
+			children = (
+				2AADA69D259BCF1000A4D8B1 /* MaisonNeue-Black.otf */,
+				2AADA6A0259BCF1A00A4D8B1 /* MaisonNeue-BlackItalic.otf */,
+				2AADA6A7259BCF1A00A4D8B1 /* MaisonNeue-Bold.otf */,
+				2AADA6A9259BCF1A00A4D8B1 /* MaisonNeue-BoldItalic.otf */,
+				2AADA6A6259BCF1A00A4D8B1 /* MaisonNeue-Book.otf */,
+				2AADA69E259BCF1A00A4D8B1 /* MaisonNeue-BookItalic.otf */,
+				2AADA69F259BCF1A00A4D8B1 /* MaisonNeue-Demi.otf */,
+				2AADA6AA259BCF1A00A4D8B1 /* MaisonNeue-DemiItalic.otf */,
+				2AADA6A4259BCF1A00A4D8B1 /* MaisonNeue-ExtraBold.otf */,
+				2AADA6A2259BCF1A00A4D8B1 /* MaisonNeue-ExtraBoldItalic.otf */,
+				2AADA6AB259BCF1A00A4D8B1 /* MaisonNeue-ExtraThin.otf */,
+				2AADA6AD259BCF1A00A4D8B1 /* MaisonNeue-ExtraThinItalic.otf */,
+				2AADA6A5259BCF1A00A4D8B1 /* MaisonNeue-Light.otf */,
+				2AADA6A1259BCF1A00A4D8B1 /* MaisonNeue-LightItalic.otf */,
+				2AADA6A8259BCF1A00A4D8B1 /* MaisonNeue-Medium.otf */,
+				2AADA6AE259BCF1A00A4D8B1 /* MaisonNeue-MediumItalic.otf */,
+				2AADA6A3259BCF1A00A4D8B1 /* MaisonNeue-Thin.otf */,
+				2AADA6AC259BCF1A00A4D8B1 /* MaisonNeue-ThinItalic.otf */,
+				2AADA6BD259BCF2700A4D8B1 /* MaisonNeueExtended-Black.otf */,
+				2AADA6BA259BCF2600A4D8B1 /* MaisonNeueExtended-BlackItalic.otf */,
+				2AADA6B1259BCF2600A4D8B1 /* MaisonNeueExtended-Bold.otf */,
+				2AADA6B8259BCF2600A4D8B1 /* MaisonNeueExtended-BoldItalic.otf */,
+				2AADA6BB259BCF2600A4D8B1 /* MaisonNeueExtended-Book.otf */,
+				2AADA6B9259BCF2600A4D8B1 /* MaisonNeueExtended-BookItalic.otf */,
+				2AADA6B4259BCF2600A4D8B1 /* MaisonNeueExtended-Demi.otf */,
+				2AADA6BC259BCF2600A4D8B1 /* MaisonNeueExtended-DemiItalic.otf */,
+				2AADA6B6259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBold.otf */,
+				2AADA6B2259BCF2600A4D8B1 /* MaisonNeueExtended-ExtraBoldItalic.otf */,
+				2AADA6C0259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThin.otf */,
+				2AADA6BE259BCF2700A4D8B1 /* MaisonNeueExtended-ExtraThinItalic.otf */,
+				2AADA6B3259BCF2600A4D8B1 /* MaisonNeueExtended-Light.otf */,
+				2AADA6B5259BCF2600A4D8B1 /* MaisonNeueExtended-LightItalic.otf */,
+				2AADA6BF259BCF2700A4D8B1 /* MaisonNeueExtended-Medium.otf */,
+				2AADA6B7259BCF2600A4D8B1 /* MaisonNeueExtended-MediumItalic.otf */,
+				2AADA6C1259BCF2700A4D8B1 /* MaisonNeueExtended-Thin.otf */,
+				2AADA6B0259BCF2600A4D8B1 /* MaisonNeueExtended-ThinItalic.otf */,
+				2AADA6C5259BCF3100A4D8B1 /* MaisonNeueMono-Bold.otf */,
+				2AADA6C4259BCF3100A4D8B1 /* MaisonNeueMono-BoldItalic.otf */,
+				2AADA6C3259BCF3100A4D8B1 /* MaisonNeueMono-Italic.otf */,
+				2AADA6C6259BCF3100A4D8B1 /* MaisonNeueMono-Regular.otf */,
+			);
+			path = "Maison Neue";
+			sourceTree = "<group>";
+		};
+		2AADA6F7259BE92E00A4D8B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AADA6F8259BE93E00A4D8B1 /* UIViewController Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AF8DCA6246F300400E42988 = {
+			isa = PBXGroup;
+			children = (
+				2AF8DCB1246F300400E42988 /* Studee */,
+				2AF8DCB0246F300400E42988 /* Products */,
+				54D56ED265C4A232CC2881DA /* Pods */,
+				E39C75B3AD08B6B8730EDB8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF8DCB0246F300400E42988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8DCAF246F300400E42988 /* Studee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF8DCB1246F300400E42988 /* Studee */ = {
+			isa = PBXGroup;
+			children = (
+				2AF19B45259AB226007A96F5 /* Studee.entitlements */,
+				2A65A3B9247461C7008090EC /* SceneDelegate.swift */,
+				2AADA6F7259BE92E00A4D8B1 /* Extensions */,
+				2A281C9C24733AA8006D6BC8 /* Controller */,
+				2A18BF5D25085F1B00F36C1B /* Managers */,
+				2A281C9A24733A9C006D6BC8 /* Model */,
+				2A65A37C24734173008090EC /* Resources */,
+				2A281C9B24733AA1006D6BC8 /* View */,
+				2AF8DCB2246F300400E42988 /* AppDelegate.swift */,
+				2AF8DCC3246F300600E42988 /* Info.plist */,
+			);
+			path = Studee;
+			sourceTree = "<group>";
+		};
+		2AF8DCC9246F301100E42988 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2AADA6C8259BCF3B00A4D8B1 /* Maison Neue */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		54D56ED265C4A232CC2881DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF192435246DDB091316A32E /* Pods-Study.debug.xcconfig */,
+				9EB7E19F61B42D355D1C4342 /* Pods-Study.release.xcconfig */,
+				E12CB969CC0605745B5C8883 /* Pods-Studie.debug.xcconfig */,
+				0F785CEDE4E98CB83F86DA60 /* Pods-Studie.release.xcconfig */,
+				48B742CA040B3693B81DF2EE /* Pods-Studee.debug.xcconfig */,
+				51232B49F07873DDE1B9D9AA /* Pods-Studee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E39C75B3AD08B6B8730EDB8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC83BB1B6235D92A504CE95 /* Pods_Studee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF8DCAE246F300400E42988 /* Studee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF8DCC6246F300600E42988 /* Build configuration list for PBXNativeTarget "Studee" */;
+			buildPhases = (
+				D8B6426263674E99F6D195D0 /* [CP] Check Pods Manifest.lock */,
+				2AC2A33C25A630580027487F /* ShellScript */,
+				2AF8DCAB246F300400E42988 /* Sources */,
+				2AF8DCAC246F300400E42988 /* Frameworks */,
+				2AF8DCAD246F300400E42988 /* Resources */,
+				1C921E619DD5924CDE5D578A /* [CP] Embed Pods Frameworks */,
+				1FA4990FF96D44F3A355E185 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studee;
+			productName = "Study Timer";
+			productReference = 2AF8DCAF246F300400E42988 /* Studee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF8DCA7246F300400E42988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Navjeeven Mann";
+				TargetAttributes = {
+					2AF8DCAE246F300400E42988 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AF8DCAA246F300400E42988 /* Build configuration list for PBXProject "Studee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF8DCA6246F300400E42988;
+			productRefGroup = 2AF8DCB0246F300400E42988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF8DCAE246F300400E42988 /* Studee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF8DCAD246F300400E42988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AADA6DD259BCF4F00A4D8B1 /* MaisonNeue-Medium.otf in Resources */,
+				2AADA6DA259BCF4F00A4D8B1 /* MaisonNeue-BoldItalic.otf in Resources */,
+				2AADA6E5259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraThinItalic.otf in Resources */,
+				2AADA6E4259BCF4F00A4D8B1 /* MaisonNeueExtended-Black.otf in Resources */,
+				2AADA6E3259BCF4F00A4D8B1 /* MaisonNeue-MediumItalic.otf in Resources */,
+				2AADA6EC259BCF4F00A4D8B1 /* MaisonNeueExtended-LightItalic.otf in Resources */,
+				2AF8DCC2246F300600E42988 /* LaunchScreen.storyboard in Resources */,
+				2AADA6D4259BCF4F00A4D8B1 /* MaisonNeueExtended-BookItalic.otf in Resources */,
+				2AADA6CE259BCF4F00A4D8B1 /* MaisonNeueMono-Regular.otf in Resources */,
+				2AADA6D9259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraThin.otf in Resources */,
+				2AF8DCBF246F300600E42988 /* Assets.xcassets in Resources */,
+				2AADA6D3259BCF4F00A4D8B1 /* MaisonNeueExtended-Bold.otf in Resources */,
+				2AADA6CA259BCF4F00A4D8B1 /* MaisonNeue-ThinItalic.otf in Resources */,
+				2AADA6DC259BCF4F00A4D8B1 /* MaisonNeue-LightItalic.otf in Resources */,
+				2AADA6E8259BCF4F00A4D8B1 /* MaisonNeueExtended-ThinItalic.otf in Resources */,
+				2A1511A3259E636800FD0081 /* BasicIntroViewController.xib in Resources */,
+				2AADA6E6259BCF4F00A4D8B1 /* MaisonNeueExtended-BoldItalic.otf in Resources */,
+				2AADA6D5259BCF4F00A4D8B1 /* MaisonNeue-ExtraThinItalic.otf in Resources */,
+				2AADA6C9259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraBold.otf in Resources */,
+				2AADA6E0259BCF4F00A4D8B1 /* MaisonNeue-Bold.otf in Resources */,
+				2AADA6F0259BCF4F00A4D8B1 /* MaisonNeueExtended-MediumItalic.otf in Resources */,
+				2AADA6ED259BCF4F00A4D8B1 /* MaisonNeueExtended-Medium.otf in Resources */,
+				2AADA6D0259BCF4F00A4D8B1 /* MaisonNeue-ExtraBoldItalic.otf in Resources */,
+				2AADA6EE259BCF4F00A4D8B1 /* MaisonNeueMono-BoldItalic.otf in Resources */,
+				2AADA6EA259BCF4F00A4D8B1 /* MaisonNeue-Black.otf in Resources */,
+				2AADA6D7259BCF4F00A4D8B1 /* MaisonNeue-Book.otf in Resources */,
+				2AADA6CF259BCF4F00A4D8B1 /* MaisonNeue-DemiItalic.otf in Resources */,
+				2AADA6DF259BCF4F00A4D8B1 /* MaisonNeueExtended-Light.otf in Resources */,
+				2AADA6DE259BCF4F00A4D8B1 /* MaisonNeueExtended-Demi.otf in Resources */,
+				2AF8DCBA246F300400E42988 /* Main.storyboard in Resources */,
+				2AADA6D1259BCF4F00A4D8B1 /* MaisonNeue-Demi.otf in Resources */,
+				2AADA6CC259BCF4F00A4D8B1 /* MaisonNeueExtended-DemiItalic.otf in Resources */,
+				2A068F1225A33CC6005EBAB6 /* MenuVideo.mp4 in Resources */,
+				2AADA6DB259BCF4F00A4D8B1 /* MaisonNeueExtended-ExtraBoldItalic.otf in Resources */,
+				2AADA6EB259BCF4F00A4D8B1 /* MaisonNeueExtended-BlackItalic.otf in Resources */,
+				2AADA6CD259BCF4F00A4D8B1 /* MaisonNeue-BlackItalic.otf in Resources */,
+				2AADA6E2259BCF4F00A4D8B1 /* MaisonNeueMono-Bold.otf in Resources */,
+				2AADA6EF259BCF4F00A4D8B1 /* MaisonNeue-ExtraBold.otf in Resources */,
+				2AADA6D8259BCF4F00A4D8B1 /* MaisonNeue-ExtraThin.otf in Resources */,
+				2AADA6D6259BCF4F00A4D8B1 /* MaisonNeue-Light.otf in Resources */,
+				2AADA6E7259BCF4F00A4D8B1 /* MaisonNeueExtended-Book.otf in Resources */,
+				2AADA6CB259BCF4F00A4D8B1 /* MaisonNeueExtended-Thin.otf in Resources */,
+				2AADA6E1259BCF4F00A4D8B1 /* MaisonNeueMono-Italic.otf in Resources */,
+				2AADA6E9259BCF4F00A4D8B1 /* MaisonNeue-BookItalic.otf in Resources */,
+				2AADA6D2259BCF4F00A4D8B1 /* MaisonNeue-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C921E619DD5924CDE5D578A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA4990FF96D44F3A355E185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Studee/Pods-Studee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC2A33C25A630580027487F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n  ${PODS_ROOT}/SwiftLint/swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D8B6426263674E99F6D195D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Studee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF8DCAB246F300400E42988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABC00C72593E80E00D31690 /* QNAViewController.swift in Sources */,
+				2A18BF5725085DD200F36C1B /* NotificationController.swift in Sources */,
+				2A00C1D92479C83F0002B5C1 /* CountdownTimer.swift in Sources */,
+				2A542325259F64EC00317F66 /* LastSwipeViewController.swift in Sources */,
+				2AF8DCB3246F300400E42988 /* AppDelegate.swift in Sources */,
+				2A18BF5825085DD200F36C1B /* TimerViewController.swift in Sources */,
+				2AADA69B259BBE4A00A4D8B1 /* LoginHandler.swift in Sources */,
+				2ABC00C42593E80300D31690 /* ForumViewController.swift in Sources */,
+				2A1511A2259E636800FD0081 /* BasicIntroViewController.swift in Sources */,
+				2A539FD925964E9800BB608C /* UserViewController.swift in Sources */,
+				2A18BF5F25085F2900F36C1B /* AdManager.swift in Sources */,
+				2A15119A259E583400FD0081 /* IntroViewController.swift in Sources */,
+				2A542328259FC5BA00317F66 /* ParseData.swift in Sources */,
+				2A02EAC7259A811A008A34A1 /* SignUpViewController.swift in Sources */,
+				2AADA6F9259BE93E00A4D8B1 /* UIViewController Extension.swift in Sources */,
+				2A65A3BA247461C7008090EC /* SceneDelegate.swift in Sources */,
+				2A18BF5425085DBC00F36C1B /* User.swift in Sources */,
+				2AADA717259C0AA200A4D8B1 /* LoginViewController.swift in Sources */,
+				2A81796025951ADB0076EAC0 /* ExampleBasicContentView.swift in Sources */,
+				2A817982259530050076EAC0 /* HomeViewController.swift in Sources */,
+				2A81795C259519F90076EAC0 /* ExampleBouncesContentView.swift in Sources */,
+				2A71A3CF259FECBF0003975C /* SplashViewController.swift in Sources */,
+				2A94157825A51497000FCA1D /* PopupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AF8DCB8246F300400E42988 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF8DCB9246F300400E42988 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF8DCC0246F300600E42988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF8DCC1246F300600E42988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AF8DCC4246F300600E42988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AF8DCC5246F300600E42988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF8DCC7246F300600E42988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B742CA040B3693B81DF2EE /* Pods-Studee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Studee/Studee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				INFOPLIST_FILE = Studee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Public;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AF8DCC8246F300600E42988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51232B49F07873DDE1B9D9AA /* Pods-Studee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Studee/Studee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNQ249579Z;
+				INFOPLIST_FILE = Studee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Public;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF8DCAA246F300400E42988 /* Build configuration list for PBXProject "Studee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF8DCC4246F300600E42988 /* Debug */,
+				2AF8DCC5246F300600E42988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF8DCC6246F300600E42988 /* Build configuration list for PBXNativeTarget "Studee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF8DCC7246F300600E42988 /* Debug */,
+				2AF8DCC8246F300600E42988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF8DCA7246F300400E42988 /* Project object */;
+}

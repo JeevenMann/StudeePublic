@@ -1,2 +1,2 @@
-# StudeePublic
+# Studee
  

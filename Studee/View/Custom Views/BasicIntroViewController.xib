@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MaisonNeue-Bold.otf">
+            <string>MaisonNeue-Bold</string>
+        </array>
+        <array key="MaisonNeue-Demi.otf">
+            <string>MaisonNeue-DemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicIntroViewController" customModule="Studee" customModuleProvider="target">
+            <connections>
+                <outlet property="flatImage" destination="NZH-kj-iw1" id="PbY-vr-l91"/>
+                <outlet property="largeText" destination="MZs-Qc-Lyy" id="npL-oY-LSu"/>
+                <outlet property="nextButton" destination="KP5-E1-ayU" id="6tV-1z-Hht"/>
+                <outlet property="skipButton" destination="sga-uE-ieF" id="bJa-Gi-uyo"/>
+                <outlet property="smallText" destination="wec-l4-5fg" id="uNG-Rk-glb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NZH-kj-iw1">
+                    <rect key="frame" x="15" y="105" width="384" height="333"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="NZH-kj-iw1" secondAttribute="height" multiplier="385:334" id="D8y-oR-kb0"/>
+                        <constraint firstAttribute="height" constant="333" id="V9e-UI-dG8"/>
+                        <constraint firstAttribute="width" constant="384" id="oIa-rk-o6f"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wec-l4-5fg">
+                    <rect key="frame" x="182.5" y="513" width="49" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Lth-ge-WfD"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="uKv-93-2dE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="20"/>
+                    <color key="textColor" name="Accent1"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZs-Qc-Lyy">
+                    <rect key="frame" x="44" y="567" width="326" height="195"/>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="327" id="YgT-1w-wdU"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="126" id="ZNg-1c-Ecb"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" name="TextColor"/>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="studee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPz-0X-ENo">
+                    <rect key="frame" x="10" y="44" width="61" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="jnq-ZI-PjX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="20"/>
+                    <color key="textColor" name="Accent1"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KP5-E1-ayU">
+                    <rect key="frame" x="329" y="812" width="75" height="50"/>
+                    <color key="backgroundColor" name="Accent1"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="gVc-9a-WoF"/>
+                        <constraint firstAttribute="height" constant="50" id="nOK-nm-abh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="25"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="-&gt;"/>
+                    <connections>
+                        <action selector="nextScreen:" destination="-1" eventType="touchUpInside" id="rlE-7Q-25Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sga-uE-ieF">
+                    <rect key="frame" x="10" y="802" width="75" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="KPi-jR-Vbo"/>
+                        <constraint firstAttribute="width" constant="75" id="Omc-4q-SeB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-DemiBold" family="Maison Neue" pointSize="20"/>
+                    <state key="normal" title="Skip">
+                        <color key="titleColor" name="TextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="skipDialog:" destination="-1" eventType="touchUpInside" id="OGX-DI-byY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KP5-E1-ayU" secondAttribute="trailing" constant="10" id="58E-hi-STF"/>
+                <constraint firstItem="wPz-0X-ENo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="GXo-Rv-QCi"/>
+                <constraint firstItem="sga-uE-ieF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="IiO-BR-Esz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KP5-E1-ayU" secondAttribute="bottom" id="M2B-8d-UgB"/>
+                <constraint firstItem="NZH-kj-iw1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mng-2N-Ovv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sga-uE-ieF" secondAttribute="bottom" constant="10" id="Pyc-Oo-VCa"/>
+                <constraint firstItem="MZs-Qc-Lyy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="44" id="QHC-lf-A41"/>
+                <constraint firstItem="NZH-kj-iw1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="61" id="d7a-QD-RJy"/>
+                <constraint firstItem="wPz-0X-ENo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="e8D-Ul-Owe"/>
+                <constraint firstItem="wec-l4-5fg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gpR-tQ-qXp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MZs-Qc-Lyy" secondAttribute="bottom" constant="100" id="hMr-zF-vjw"/>
+                <constraint firstItem="MZs-Qc-Lyy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hsC-WO-YKJ"/>
+                <constraint firstItem="wec-l4-5fg" firstAttribute="top" secondItem="NZH-kj-iw1" secondAttribute="bottom" constant="75" id="m0r-KB-gbf"/>
+                <constraint firstItem="NZH-kj-iw1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="oa2-P4-XD5"/>
+                <constraint firstItem="MZs-Qc-Lyy" firstAttribute="top" secondItem="wec-l4-5fg" secondAttribute="bottom" constant="30" id="rMB-pT-ZcJ"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="141.96428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Accent1">
+            <color red="0.16899999976158142" green="0.88999998569488525" blue="0.55299997329711914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
